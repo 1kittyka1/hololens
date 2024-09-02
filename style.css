@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../img/5.png);
+}
+.box{
+	width: 960px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, .2);
+}
+header{
+	height: 300px;
+	background: linear-gradient(to right, #fff, #696969);
+	padding: 0 60px;
+	border: 1px solid #696969;
+}
+aside, section{
+	width: 480px;
+	padding: 10px;
+	float: left;
+}
+footer{
+	padding: 20px 0;
+	float: left;
+	background: #696969;
+}
+.navigation{
+	list-style-type: none;
+}
+.navigation_item{
+	width: 220px;
+	height: 50px;
+	margin: 10px 10px;
+	float: left;
+	text-align: center;
+}
+a{
+	display: block;
+	width: 220px;
+	height: 50px;
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	background: #696969;
+}
+a:hover{
+	background: #fff;
+	color: #696969;
+	border: 1px px solid #696969;
+	font-weight: bold;
+}
+.hololens{
+	width: 460px;
+	border: 1px solid #696969;
+}
+h1{
+	float: right;
+	padding-top: 100px;
+	color: #fff;
+	letter-spacing: 1px;
+	word-spacing: 6px;
+	font-size: 40px;
+	font-family: 'Titillum Web', sans-serif;
+}
+h2{
+	font-size: 26px;
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: 'Anonymous Pro';
+}
+.footer-paragraph{
+	text-align: center;
+	color: #fff;
+	font-family: 'Anonymous Pro';
+}
+p, ul{
+	font-size: 18px;
+	padding-bottom: 5px;
+	font-family: 'Anonymous Pro';
+}
+ul{
+	list-style-position: inside;
+}
+.paragraph_last{
+	padding-bottom: 50px;
+}
